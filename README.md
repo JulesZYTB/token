@@ -23,5 +23,5 @@ If you are having trouble installing the module, or github repository, run this 
 ```
 
 ## `SUPPORT` `👋`
-> Discord Server - [Rocket Tokens](https://discord.gg/MXuPYeDRk2)
+> Discord Server - [Rocket Tokens](https://discord.gg/MXuPYeDRk2) <br>
 > Telegram       - [Bongo Tools](https://t.me/bongotools)
