@@ -5,7 +5,8 @@ import capmonster_python
 import httpx
 import art, gratient, PyMailGw
 
-CAPTCHA_KEY = '' # (capmonster) leave empty if you have an environmental key on replit
+CAPTCHA_KEY = ''
+CAPTCHA_KEY
 
 class Settings():
       __DATA__ = {
