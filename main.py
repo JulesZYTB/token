@@ -5,7 +5,7 @@ import capmonster_python
 import httpx
 import art, gratient, PyMailGw
 
-CAPTCHA_KEY = ''
+CAPTCHA_KEY = '57c30fcf1f36c94041d1eaf9f891c973'
 CAPTCHA_KEY
 
 class Settings():
