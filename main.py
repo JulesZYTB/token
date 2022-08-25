@@ -216,7 +216,7 @@ class Discord():
                     }
           ).json()
           
-      def create_token(self, invite_code: str = None, email: str = "", username: str = 'Bongo', DISCORD_WEBHOOK_URL = ''):
+      def create_token(self, invite_code: str = None, email: str = "", username: str = 'BoOm-BoOsT', DISCORD_WEBHOOK_URL = ''):
           if True:
              if True:
                 if True:
@@ -292,7 +292,7 @@ class Discord():
                                'Username'.lower()         : '%s | %s' % (username, ''.join(random.choice(string.ascii_letters) for x in range(3))) if username != '' else username,
                                'Invite'.lower()           : '%s' % (invite_code),
                                'Date_Of_Birth'.lower()    : "1991-04-06",
-                               'Password'.lower()         : "BongoGenerator9",
+                               'Password'.lower()         : "BoOm-BoOsT!",
                                'Email'.lower()            : f"{''.join(random.choice(string.ascii_letters) for x in range(12))}" + random.choice(['@gmail.com', '@outlook.com', '@replit.com']) if email == "" else email
                        }, proxies = {
                                   'http'     : 'http://%s' % (
@@ -344,7 +344,7 @@ class Wrapper():
           invite_code,
           webhook,
       ):
-          Discord().create_token(invite_code = invite_code, username = 'BongoGen | %s' % ''.join(random.choice(string.ascii_letters) for x in range(3)), DISCORD_WEBHOOK_URL = webhook, email = '')
+          Discord().create_token(invite_code = invite_code, username = 'BoOm-BoOsT | %s' % ''.join(random.choice(string.ascii_letters) for x in range(3)), DISCORD_WEBHOOK_URL = webhook, email = '')
           Discord()
 
       def start_email(
@@ -394,7 +394,7 @@ while True:
          os
         
          if True:
-            print(gratient.red(art.text2art("Bongo")))
+            print(gratient.red(art.text2art("BoOm-BoOsT")))
             print(' [1]: %s' % (gratient.red('Locked Token Generator')), '[2]: %s' % (gratient.red('Email Verified Token Generator')), '[3]: %s' % (gratient.red('Token Joiner')), '[4]: %s' % (gratient.red('Token Checker')))
 
          option = input(' [.] -> ')
@@ -406,7 +406,7 @@ while True:
                os.system('clear')
                os
 
-            print(gratient.red(art.text2art('Bongo')))
+            print(gratient.red(art.text2art('BoOm-BoOsT')))
             print
 
          invite_code =     input('[*] Invite Code : ')
@@ -443,7 +443,7 @@ while True:
                   os.system('clear')
                   os
 
-               print(gratient.red(art.text2art('Bongo')))
+               print(gratient.red(art.text2art('BoOm-BoOsT')))
                print
 
             invite_code =     input('[*] Invite Code : ')
@@ -490,7 +490,7 @@ while True:
                      os.system('clear')
                      os
 
-                  print(gratient.blue(art.text2art("Bongo")))
+                  print(gratient.blue(art.text2art("BoOm-BoOsT")))
                   print
 
                invite_code = input('[%s*%s] Invite Code: ' % (colorama.Fore.RED, colorama.Fore.RESET))
@@ -510,7 +510,7 @@ while True:
                         os.system('clear')
                         os
 
-                     print(gratient.red(art.text2art('Bongo')))
+                     print(gratient.red(art.text2art('BoOm-BoOsT')))
                      print
 
                   token = input('[@] Token ->: ')
